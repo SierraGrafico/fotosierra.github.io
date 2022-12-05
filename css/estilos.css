@@ -1,0 +1,29 @@
+@media (min-width: 992px){
+#mainNav.navbar-shrink {
+    background: linear-gradient(var(--bs-rojo1) , var(--bs-rojo2) );
+}
+#mainNav .navbar-brand img {
+  height: 50px;
+}
+#mainNav.navbar-shrink .navbar-brand svg, #mainNav.navbar-shrink .navbar-brand img {
+  height: 37px;
+}
+header.masthead .masthead-subheading {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+header.masthead .masthead-heading{
+  font-size: 32px;
+}
+}
+.btn-primary {
+  color: #fff;
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  border-radius: 24px;
+}
+#services img{
+  height: 104px;
+}
